@@ -30,7 +30,7 @@ function callHistoryAndCoinDecrease(idServiceNameBangla, idServiceNameEnglish, i
       document.getElementById("coin-balance").innerText
     );
     if (coinBalance < 20) {
-      alert("❌ আপনার পর্যাপ্ত কয়েন নেই। কল করতে কমপক্ষে ২০ কয়েন লাগবে।");
+      alert(`❌ আপনার পর্যাপ্ত কয়েন নেই। কল করতে কমপক্ষে ২০ কয়েন লাগবে।`);
     } else {
       alert(`📞 Calling ${serviceNameEnglish} ${serviceNumber}...`);
       coinBalance -= 20;
