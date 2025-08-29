@@ -20,7 +20,7 @@ section
 All the elements have event listener to them and the button is clicked then the event listener inside the button gets triggered then it goes upwards the its parent element the div then triggers the div elements event listener then finally it goes to the div elements parent section element and triggers its event listener too. And this is called event bubbling🙂.
 
 4. What is Event Delegation in JavaScript? Why is it useful?  
-Answer: Did not understand very well, Might need a conceptual section for it.
+Answer: Did not understand very well, Might need a conceptual session for it.
 
 5. What is the difference between preventDefault() and stopPropagation() methods?  
 Answer: The difference between preventDefault() and stopPropagation() is one stops a elements default behavior and another stops event bubbling from going up wards.  
