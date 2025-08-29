@@ -12,11 +12,11 @@ But instead of using appendChild() i would prefer to use insertAdjacentHTML(). T
 3. What is Event Bubbling and how does it work?
 Answer: Don't know what is event bubbling, searched it online but it was to complicated for me. But i know how it works.
 Basically when a event(click, scroll, hover, swipe etc.) occur in any element of the DOM file the event is triggered and bubbles upwards triggering all the events form its parent and its parent and its parent until it hits the document tag. For example a section has a div and inside that div there is a button. So, our DOM tree looks like this:
-<section>
-    <div>
-        <button></button>
-    </div>
-</section>
+section
+    div
+        button button
+    div
+section
 All the elements have event listener to them and the button is clicked then the event listener inside the button gets triggered then it goes upwards the its parent element the div then triggers the div elements event listener then finally it goes to the div elements parent section element and triggers its event listener too. And this is called event bubbling🙂.
 
 4. What is Event Delegation in JavaScript? Why is it useful?
